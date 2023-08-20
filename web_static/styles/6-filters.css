@@ -68,7 +68,6 @@ h4 {
 }
 
 .popover li {
-    display: flex;
     cursor: pointer;
     transition: background-color 0.1s;
     margin-top: 10px;
