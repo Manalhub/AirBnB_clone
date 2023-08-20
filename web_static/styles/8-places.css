@@ -54,12 +54,23 @@ article h2 {
     align-items: center;
 }
 
-.max_guest img,
-.number_rooms img,
-.number_bathrooms img {
+.icon {
     width: 20px;
     height: 20px;
     margin-right: 5px;
+    display: inline-block;
+}
+
+.max_guest .icon::before {
+    content: url('images/guest-icon.png');
+}
+
+.number_rooms .icon::before {
+    content: url('images/bed-icon.png');
+}
+
+.number_bathrooms .icon::before {
+    content: url('images/bath-icon.png');
 }
 
 .user {
