@@ -73,6 +73,7 @@ h4 {
     transition: background-color 0.1s;
     margin-top:10px;
     margin-bottom: 10px;
+    list-style: none;
 }
 
 .popover li:hover {
