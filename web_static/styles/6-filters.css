@@ -71,8 +71,8 @@ h4 {
     display: flex;
     cursor: pointer;
     transition: background-color 0.1s;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style-type: none;
 }
 
