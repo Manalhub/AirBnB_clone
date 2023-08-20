@@ -62,15 +62,15 @@ article h2 {
 }
 
 .max_guest .icon::before {
-    content: url('images/guest-icon.png');
+    content: url('./images/guest-icon.png');
 }
 
 .number_rooms .icon::before {
-    content: url('images/bed-icon.png');
+    content: url('./images/bed-icon.png');
 }
 
 .number_bathrooms .icon::before {
-    content: url('images/bath-icon.png');
+    content: url('./images/bath-icon.png');
 }
 
 .user {
