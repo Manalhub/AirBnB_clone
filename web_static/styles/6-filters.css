@@ -74,6 +74,7 @@ h4 {
     margin-top: 10px;
     margin-bottom: 10px;
     list-style-type: none;
+    z-index: 1;
 }
 
 .popover li:hover {
