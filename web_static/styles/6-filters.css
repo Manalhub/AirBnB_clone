@@ -68,10 +68,11 @@ h4 {
 }
 
 .popover li {
+    padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.1s;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style-type: none;
     z-index: 1;
 }
