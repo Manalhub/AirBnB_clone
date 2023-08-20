@@ -57,11 +57,9 @@ h4 {
     display: none;
     position: relative;
     background-color: #FAFAFA;
-    width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     list-style: none;
-    z-index: 1;
 }
 
 .locations:hover .popover,
@@ -75,10 +73,6 @@ h4 {
     transition: background-color 0.1s;
     margin-top:10px;
     margin-bottom: 10px;
-}
-
-.popover h2 {
-    font-size: 16px;
 }
 
 .popover li:hover {
