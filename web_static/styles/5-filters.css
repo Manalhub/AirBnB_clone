@@ -32,20 +32,23 @@
     padding: 20px;
     display: inline-block;
     vertical-align: top;
-    border-right: 1px solid #DDDDDD;
+    border-right: none;
 }
 
 .locations {
-    border-right: none; /* No border for the first filter */
+    border-right: 1px solid #DDDDDD;
 }
 
 h3 {
     font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 h4 {
     font-weight: 400;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
