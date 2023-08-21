@@ -90,7 +90,7 @@ div.price_by_night {
 /* styles/100-places.css */
 .places article .amenities,
 .places article .reviews{
-  text-align: left;
+	text-align: left;
 	margin: 40px 0 40px;
 	width: 100%;
 	padding: 0;
