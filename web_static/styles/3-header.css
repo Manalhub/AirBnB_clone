@@ -10,7 +10,7 @@ header {
 .logo {
     width: 100px;
     height: 30px;
-    background-image: url(../images/logo.png);
+    background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 20px;
