@@ -43,14 +43,13 @@ div.price_by_night {
     justify-content: space-between;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
-    padding: 10px 0;
-    margin: 10px 0;
+    padding: 10px 0px;
+    margin: 16px 60px;
 }
 
 .max_guest,
 .number_rooms,
 .number_bathrooms {
-    display: flex;
     align-items: center;
 }
 
@@ -68,7 +67,7 @@ div.price_by_night {
 }
 
 .number_rooms::before {
-    content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png');
+    content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png');
     display: block;
     text-align:center;
 }
