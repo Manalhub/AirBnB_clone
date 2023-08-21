@@ -23,8 +23,8 @@ article h2 {
     text-align: center;
 }
 
-/* styles/8-places.css */
 .price_by_night {
+
     font-size: 30px;
     min-width: 60px;
     height: 60px;
@@ -34,8 +34,8 @@ article h2 {
     text-align: center;
     line-height: 60px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
 }
 
 .information {
