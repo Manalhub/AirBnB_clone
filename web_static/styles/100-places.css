@@ -90,7 +90,7 @@ div.price_by_night {
 /* styles/100-places.css */
 .places article .amenities,
 .places article .reviews{
-  text-align: left;
+  	text-align: left;
 	margin: 40px 0 40px;
 	width: 100%;
 	padding: 0;
@@ -116,29 +116,29 @@ div.price_by_night {
 .places article .amenities ul li,
 .places article .reviews ul li{
 	background-position: top left;
-  background-size: 30px;
+	background-size: 30px;
 	background-repeat: no-repeat;
 	list-style-type: none;
 }
 
 .places article .reviews ul li h3{
-	font-size: 14px;
+	font-size: 12px;
 }
 .places article .reviews ul li p{
 	font-size: 12px;
 }
 
-.icon_wifi::before{
+.icon_wifi::left{
 	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png');
 	display: block;
-  	text-align:left;
+  	text-align:block;
 }
-.icon_tv::before{
+.icon_tv::left{
 	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png');
 	display: block;
 	text-align:left;
 }
-.icon_pets::before{
+.icon_pets::left{
 	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png');
 	display: block;
 	text-align:left;
