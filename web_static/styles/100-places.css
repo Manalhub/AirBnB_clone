@@ -128,26 +128,20 @@ div.price_by_night {
 	font-size: 12px;
 }
 
-.icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    display: inline-block;
-}
 .icon_wifi::before{
 	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png');
 	display: block;
-  	text-align:center;
+  	text-align:left;
 }
 .icon_tv::before{
 	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png');
 	display: block;
-	text-align:center;
+	text-align:left;
 }
 .icon_pets::before{
 	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png');
 	display: block;
-	text-align:center;
+	text-align:left;
 }
 
 footer {
