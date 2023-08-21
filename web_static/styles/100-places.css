@@ -88,44 +88,6 @@ div.price_by_night {
 }
 
 /* styles/100-places.css */
-.amenities,
-.reviews {
-    text-align: left;
-    margin: 40px 0 40px;
-    width: 100%;
-    padding: 0;
-}
-
-.amenities h2,
-.reviews h2 {
-    font-size: 16px;
-    border-bottom: 1px solid #DDDDDD;
-}
-
-.amenities ul,
-.reviews ul {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.amenities li,
-.reviews li {
-    line-height: 30px;
-    padding-left: 50px;
-    background-position: top left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-    list-style-type: none;
-}
-
-.reviews h3 {
-    font-size: 14px;
-}
-
-.reviews p {
-    font-size: 12px;
-}
 
 .icon_wifi::before{
 	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png');
