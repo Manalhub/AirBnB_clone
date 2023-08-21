@@ -24,7 +24,6 @@ article h2 {
 }
 
 .price_by_night {
-
     font-size: 30px;
     min-width: 60px;
     height: 60px;
@@ -34,7 +33,7 @@ article h2 {
     text-align: center;
     line-height: 60px;
     top: 10px;
-    position: absolute;
+    position: relative;
     right: 10px;
 }
 
