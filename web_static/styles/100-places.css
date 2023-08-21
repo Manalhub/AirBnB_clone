@@ -97,8 +97,7 @@ div.price_by_night {
     
 }
 .places article .amenities h2,
-.places article .reviews h2{
-	size: 16px;	
+.places article .reviews h2{	
 	border-bottom: 1px solid #DDDDDD;
 }
 .places article .amenities ul,
