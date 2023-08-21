@@ -66,7 +66,7 @@ article h2 {
 }
 
 .number_rooms .icon::before {
-    content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png');
+    content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png');
 }
 
 .number_bathrooms .icon::before {
