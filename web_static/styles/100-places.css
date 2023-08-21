@@ -90,7 +90,10 @@ div.price_by_night {
 /* styles/100-places.css */
 .amenities,
 .reviews {
-    margin-top: 40px;
+    text-align: left;
+    margin: 40px 0 40px;
+    width: 100%;
+    padding: 0;
 }
 
 .amenities h2,
@@ -102,43 +105,42 @@ div.price_by_night {
 .amenities ul,
 .reviews ul {
     list-style: none;
-    padding-left: 0;
-    margin-top: 10px;
+    padding: 0;
+    text-align: left;
 }
 
 .amenities li,
 .reviews li {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-.icon {
-    font-size: 20px;
-    margin-right: 10px;
+    line-height: 30px;
+    padding-left: 50px;
+    background-position: top left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    list-style-type: none;
 }
 
 .reviews h3 {
     font-size: 14px;
-    margin-bottom: 5px;
 }
 
 .reviews p {
     font-size: 12px;
 }
 
-.icon_wifi{
-	background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png');
-  
+.icon_wifi::before{
+	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png');
+	display: block;
+  	text-align:center;
 }
-.icon_tv{
-	background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png');
-  
+.icon_tv::before{
+	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png');
+	display: block;
+	text-align:center;
 }
-.icon_pets{
-	background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png');
-  
+.icon_pets::before{
+	content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png');
+	display: block;
+	text-align:center;
 }
 
 footer {
