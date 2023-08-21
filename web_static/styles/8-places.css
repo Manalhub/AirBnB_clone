@@ -61,19 +61,19 @@ article h2 {
     display: inline-block;
 }
 
-.max_guest .icon::before {
+.max_guest::before {
     content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png');
     display: block;
     text-align:center;
 }
 
-.number_rooms .icon::before {
+.number_rooms::before {
     content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png');
     display: block;
     text-align:center;
 }
 
-.number_bathrooms .icon::before {
+.number_bathrooms::before {
     content: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png');
     display: block;
     text-align:center;
