@@ -1,0 +1,47 @@
+/* Common styles for all screen sizes */
+.filters {
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column; /* Change to column layout for small screens */
+    align-items: stretch; /* Stretch items to full width */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.search-button {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    height: 40px; /* Reduce button height for smaller screens */
+    width: 100%; /* Button takes full width */
+    margin: 10px 0; /* Adjust margin for spacing */
+}
+
+.locations,
+.amenities {
+    width: 100%; /* Make locations and amenities full width */
+    border-right: none; /* Remove border for smaller screens */
+    margin-bottom: 10px; /* Add margin for spacing */
+}
+
+h3, h4 {
+    margin-left: 0; /* Remove left margin for smaller screens */
+    text-align: center; /* Center-align headings for smaller screens */
+}
+
+.popover {
+    position: static; /* Remove relative positioning for smaller screens */
+    margin-top: 10px; /* Adjust margin for spacing */
+    display: block; /* Always display popover on small screens */
+}
+
+.popover li {
+    margin: 5px 0; /* Adjust margins for spacing */
+}
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+    .search-button {
+        font-size: 14px;
+        height: 32px;
+    }
+}

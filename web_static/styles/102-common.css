@@ -1,0 +1,24 @@
+/* Common styles for all screen sizes */
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5; /* Add line-height for better readability */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto; /* Reduce margin for smaller screens */
+    padding: 0 20px; /* Add padding to the sides */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; /* Make the container full width for smaller screens */
+        margin: 10px auto; /* Adjust margin for smaller screens */
+    }
+}

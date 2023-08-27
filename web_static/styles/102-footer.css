@@ -1,0 +1,19 @@
+/* Common styles for all screen sizes */
+footer {
+    background: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Change to relative instead of absolute */
+    border-top: 1px solid #CCCCCC;
+    width: 100%;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+    footer {
+        height: 40px; /* Adjust footer height for smaller screens */
+    }
+}

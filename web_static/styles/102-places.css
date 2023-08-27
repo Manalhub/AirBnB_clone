@@ -1,0 +1,71 @@
+/* Common styles for all screen sizes */
+.places {
+    text-align: center;
+}
+
+.places h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+    margin-bottom: 20px;
+}
+
+/* Adjust article styles for smaller screens */
+article {
+    width: 100%; /* Make articles full width */
+    max-width: 400px; /* Limit max-width for readability */
+    margin: 20px auto; /* Center-align articles */
+}
+
+div.price_by_night {
+    font-size: 24px; /* Reduce font size for smaller screens */
+    height: 48px; /* Adjust height for smaller screens */
+    line-height: 48px; /* Adjust line-height for centering */
+    top: -70px; /* Adjust top positioning */
+    right: 20px; /* Add right margin for spacing */
+}
+
+.information {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    padding: 10px 0;
+    margin: 16px 20px; /* Adjust margin for spacing */
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+    display: flex; /* Align icons and text horizontally */
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+    .places h1 {
+        font-size: 20px;
+    }
+
+    article {
+        max-width: 100%; /* Allow articles to take full width */
+    }
+
+    div.price_by_night {
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        top: -60px;
+    }
+
+    .information {
+        margin: 16px 10px; /* Adjust margin for smaller screens */
+    }
+
+    .icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+

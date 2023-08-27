@@ -1,0 +1,32 @@
+/* Common styles for all screen sizes */
+header {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 0 20px; /* Add some padding to the sides */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.logo {
+    width: 100px;
+    height: 30px;
+    background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+    header {
+        height: 50px; /* Reduce header height for smaller screens */
+    }
+
+    .logo {
+        width: 80px; /* Adjust logo size for smaller screens */
+        height: 24px;
+    }
+}

@@ -1,0 +1,91 @@
+/* Update article styles */
+article {
+    width: 390px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Update information styles */
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px 0px;
+    margin: 16px 0; /* Adjust margin */
+}
+
+/* Update .max_guest, .number_rooms, .number_bathrooms styles */
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+    display: flex;
+    align-items: center;
+    margin: 5px; /* Adjust margin */
+}
+
+/* Update .user and .description styles */
+.user,
+.description {
+    margin: 10px 0;
+    text-align: center; /* Center-align text */
+}
+
+/* Update .places article .amenities and .places article .reviews styles */
+.places article .amenities,
+.places article .reviews {
+    text-align: left;
+    margin: 20px 0; /* Adjust margin */
+    padding: 0;
+    width: 100%;
+}
+
+/* Update .places article .amenities ul li and .places article .reviews ul li styles */
+.places article .amenities ul li,
+.places article .reviews ul li {
+    line-height: 30px;
+    padding-left: 30px; /* Adjust padding */
+    background-position: left center; /* Adjust background position */
+    background-size: 20px; /* Adjust background size */
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+
+/* Update .places article .reviews ul li h3 and .places article .reviews ul li p styles */
+.places article .reviews ul li h3,
+.places article .reviews ul li p {
+    font-size: 14px; /* Adjust font size */
+    text-align: left; /* Align text to left */
+}
+
+/* Update icon pseudo-elements styles */
+.icon_wifi::before,
+.icon_tv::before,
+.icon_pets::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle; /* Vertically align icons */
+}
+
+/* Update icon URLs */
+.icon_wifi::before {
+    background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_wifi.png');
+}
+
+.icon_tv::before {
+    background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_tv.png');
+}
+
+.icon_pets::before {
+    background-image: url('https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_pets.png');
+}
+
